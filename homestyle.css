@@ -1,0 +1,59 @@
+/* Justin Cooke 4/12/19
+Notepad++
+Style Sheet for my Homepage
+*/
+
+img.bg {
+	/* Set rules to fill background */
+	min-height: 100%;
+	min-width: 1024px;
+	
+	/* Set up scaling */
+	width: 100%;
+	height: auto;
+	
+	/* Set up positioning */
+	position: fixed;
+	top: 0;
+	left: 0;
+}
+
+@media screen and (max-width: 1024px) {
+	img.bg {
+		left: 50%;
+		margin-left: -512px; /* 50% */
+	}
+}
+
+.center {
+	text-align: center; /* Aligns text to the center */
+}
+
+p { /* Characterizes all text as Penn red, using the specified font */
+	color: #990000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 45px;
+}
+
+#page-wrap { /* Provides a white box to be used as a backdrop for homepage text */
+position: relative;
+width: 400px;
+margin: 50px auto;
+padding: 20px;
+background: white;
+-mox-box-shadow: 0 0 20px black; 
+-webkit-box-shadow; 0 0 20px black; 
+box-shadow: 0 0 20px black;
+}
+
+a:link, a:visited {
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+}
+
+h3 {
+	color: #990000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+}
