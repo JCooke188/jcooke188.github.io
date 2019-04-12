@@ -1,0 +1,40 @@
+/* Justin Cooke 4/12/19
+Notepad++
+Style Sheet for my Homepage
+*/
+
+
+/* This section is in charge of formatting the navigation bar at the top of each page */
+
+ul {
+	list-style-type: none; /* Removes default link style */
+	margin; 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #990000
+}
+
+li { /* Creates a horizontal style as opposed to vertical */
+	float: left; 
+}
+
+li a { /* Creates the block styling of the links */
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #011F5B;
+}
+
+.active {
+	background-color: #BF6060;
+}
+
+/* This section declares the grid styling */
+
