@@ -1,6 +1,6 @@
 /* Justin Cooke 4/12/19
 Notepad++
-Style Sheet for my Homepage
+Style Sheet for my Welcome Page
 */
 
 img.bg {
@@ -35,7 +35,7 @@ p { /* Characterizes all text as Penn red, using the specified font */
 	font-size: 45px;
 }
 
-#page-wrap { /* Provides a white box to be used as a backdrop for homepage text */
+#page-wrap { /* Provides a white box to be used as a backdrop for welcome page text */
 position: relative;
 width: 400px;
 margin: 50px auto;

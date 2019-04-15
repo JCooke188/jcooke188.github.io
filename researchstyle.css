@@ -1,0 +1,119 @@
+/* Justin Cooke 4/12/19
+Notepad++
+Style Sheet for my honors
+*/
+
+.center {
+	text-align: center;
+}
+
+body {
+	margin-left: 250px;
+	margin-right: 250px;
+}
+
+h1 {
+	color: #990000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 36px;
+}
+
+h2 {
+	color: #011F5B;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+}
+
+h3 {
+	color: #990000;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 18px;
+}
+  
+  p {
+	  color: #011F5B;
+	  font-family: 'Open Sans', sans-serif;
+	  font-size: 16px;
+	  text-align: justify;
+}
+  
+  hr { 
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-width: 2px;
+	border-color: #990000;
+}
+
+#video-wrap {
+	float: left;
+	margin: 0 20px 5px 0;
+}
+
+/* This section is in charge of formatting the navigation bar at the top of each page */
+
+ul {
+	list-style-type: none; /* Removes default link style */
+	margin; 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #990000
+}
+
+ul.b {
+	list-style-type: square;
+	margin; 0;
+	padding: 0;
+	background-color: white;
+}
+
+li { /* Creates a horizontal style as opposed to vertical */
+	float: left; 
+}
+
+li a { /* Creates the block styling of the links */
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #011F5B;
+}
+
+li.b {
+	font-family: 'Open Sans', sans-serif;
+}
+
+.active {
+	background-color: #BF6060;
+}
+
+/* This section declares the flexbox styling */
+
+article {
+	padding: 10px; /* Padding separates the flexboxes */
+	margin: 10px;
+	background: white;
+	flex: 1;
+}
+
+section {
+	display: flex; /* Creates the flex boxes */
+	flex-direction: column; /* Declares how to set up the boxes, this will stack them in a column */
+	flex-wrap: wrap; /* Aids in styling by wrapping boxes if they do not fit the screen */
+}
+
+section.b {
+	display: flex; /* Creates the flex boxes */
+	flex-direction: row; /* Declares how to set up the boxes, this will have multiple columns */
+	flex-wrap: wrap; /* Aids in styling by wrapping boxes if they do not fit the screen */
+}
+

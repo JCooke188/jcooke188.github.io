@@ -1,6 +1,6 @@
 /* Justin Cooke 4/12/19
 Notepad++
-Style Sheet for my website
+Style Sheet for my honors
 */
 
 .center {
@@ -16,14 +16,25 @@ h1 {
 	color: #990000;
 	font-family: 'Open Sans', sans-serif;
 	font-size: 36px;
-  }
+}
   
   p {
 	  color: #011F5B;
 	  font-family: 'Open Sans', sans-serif;
 	  font-size: 16px;
 	  text-align: justify;
-  }
+}
+  
+  hr { 
+    display: block;
+    margin-before: 0.5em;
+    margin-after: 0.5em;
+    margin-start: auto;
+    margin-end: auto;
+    overflow: hidden;
+    border-width: 2px;
+	border-color: #011F5B;
+}
 
 /* This section is in charge of formatting the navigation bar at the top of each page */
 
@@ -33,6 +44,13 @@ ul {
 	padding: 0;
 	overflow: hidden;
 	background-color: #990000
+}
+
+ul.b {
+	list-style-type: square;
+	margin; 0;
+	padding: 0;
+	background-color: white;
 }
 
 li { /* Creates a horizontal style as opposed to vertical */
@@ -53,6 +71,10 @@ li a:hover {
   background-color: #011F5B;
 }
 
+li.b {
+	font-family: 'Open Sans', sans-serif;
+}
+
 .active {
 	background-color: #BF6060;
 }
@@ -60,19 +82,17 @@ li a:hover {
 /* This section declares the flexbox styling */
 
 article {
-	padding: 10px;
+	padding: 10px; /* Padding separates the flexboxes */
 	margin: 10px;
 	background: white;
 	flex: 1;
 }
 
-article:nth-of-type(2) {
-		  flex: 3;
-		}
 
 section {
-	display: flex;
-	flex-wrap: wrap;
+	display: flex; /* Creates the flex boxes */
+	flex-direction: column; /* Declares how to set up the boxes, this will stack them in a column */
+	flex-wrap: wrap; /* Aids in styling by wrapping boxes if they do not fit the screen */
 }
 
 

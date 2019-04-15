@@ -7,7 +7,7 @@ Honors and Awards Page
 <html>
 	<head> 
 		<title> Research </title>
-		<link rel="stylesheet" type="text/css" href="mainstyle.css">
+		<link rel="stylesheet" type="text/css" href="researchstyle.css">
 	</head>
 	<body>
 		<ul>
@@ -16,5 +16,43 @@ Honors and Awards Page
 		  <li><a href="./cv.html"> Curriculum Vitae </a></li>
 		  <li><a href="./honorsawards.html"> Honors and Awards </a></li>
 		</ul>
+	
+	<section>
+		<section>
+			<article>
+				<h2> Research Interests <hr> </h2>
+				<p> My primary research interests include computational fluid dynamics and heat transfer. Specifically, I am interested in 
+				the use of high performance computing, and the creation of novel computational methods to solve these problems. </p>
+			</article>
+			<article>
+				<h2> Current Projects <hr> </h2>
+					<h3> Will be updated in the fall </h3>
+			</article>
+			<article>
+				<h2> Past Projects <hr> </h2>
+					<h3> Correlation Between Reynols Number and Rayleigh Number for Vertical Ellipse </h3>
+						<div id="video-wrap"> 
+							<video id="vertEllipse" src="./VertEllipseNCRa100.mp4" width="480" height="270" controls loop></video>
+						</div>
+					<p> Worked in a team investigating the possibility of a correlation
+					between Reynolds Number, Re, and Rayleigh Number, Ra, for a vertical ellipse. It is known that
+					an existing correlation exists for a cylinder, so investigation into similar geometries was conducted.
+					I ran high fidelity simulations, accessing remotely high performance computers through a Linux
+					based software. Data was extracted from the simulations and then used to visualize these high
+					fidelity simulations, and create a relationship between Re and Ra. Findings were presented to the
+					rest of the team. <br> <br> The video on the left is a vertical ellipse that in natural convection, with a Rayleigh number 
+					of 100. Plumes can be seen once the ellipse has had heat applied to it, and then within a few moments the plumes reduce 
+					in size and the system reaches a steady state. The geometry and mesh were made using Nektar++, and the visual was created using EnSign. </p>
+			</article>
+			<article>
+				<h3> Geometric Optimization of a Heat Sink </h3>
+				<p> Worked in a team to conduct a proof of concept study on multi-fidelity
+				modeling in design optimization. I worked with another student and created a simplified low
+				fidelity model for a heat sink, idealizing the geometry into a thermal resistance network. An
+				objective function was created such that it could be used for high volume, quick data points. </p>
+
+			</article>
+		</section>
+	
 	</body>
 </html>
